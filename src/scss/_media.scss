@@ -1,0 +1,234 @@
+@media( max-width: 1199px ) {
+    .video {
+        iframe {
+            width: 440px;
+            height: 247px;
+        }
+    }
+
+    .music {
+        &__wrapper {
+            iframe {
+                width: 400px;
+                height: 225px;
+            }
+        }
+    }
+}
+
+@media( max-width: 1050px ) {
+    .slider {
+        .cards {
+            width: 500px;
+        }
+    }
+}
+
+@media( max-width: 991px ) {
+    .button {
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 50px;
+    }
+
+    .promo {
+        &__quote {
+            font-size: 18px;
+        }
+    }
+
+    .video {
+        &__media {
+            .line {
+                height: 370px;
+            }
+        }
+
+        iframe {
+            width: 300px;
+            height: 171px;
+        }
+    }
+}
+
+@media( max-width: 767px ) {
+    .title {
+        font-size: 20px;
+    }
+
+    .BANner {
+        height: 150px;
+
+        &__wrapper {
+            padding: 6px;
+            border: 4px solid #fff;
+        }
+
+        &__label {
+            padding: 5px 55px;
+            
+            font-size: 48px;
+        }
+    }
+
+    .promo {
+        height: 550px;
+        background: #000;
+
+        &__content {
+            align-items: center;
+        }
+
+        &__quote {
+            text-align: center;
+        }
+    }
+
+    .video {
+        padding: 75px 0;
+
+        &__media {
+            flex-direction: column;
+     
+            .line {
+                height: 1px;
+                width: 95%;
+            }
+        }
+
+        iframe {
+            width: 400px;
+            height: 225px;
+
+            &:first-child {
+                margin-top: 30px;
+                margin-bottom: 75px;
+            }
+
+            &:last-child {
+                margin-top: 75px;
+            }
+        }
+    }
+
+    .forbiden {
+        height: 550px;
+    }
+}
+
+@media( max-width: 520px ) {
+    .slider {
+        .cards {
+            width: 450px;
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+}
+
+@media( max-width: 470px ) {
+    .BANner {
+        height: 100px;
+
+        &__wrapper {
+            padding: 4px;
+            border: 3px solid #fff;
+        }
+
+        &__label {
+            padding: 2px 40px;
+            
+            font-size: 40px;
+        }
+    }
+
+    .video {
+        iframe {
+            width: 350px;
+            height: 195px;
+        }
+    }
+
+    .slider {
+        .cards {
+            width: 400px;
+        }
+    }
+}
+
+@media( max-width: 444px ) {
+    .music {
+        &__wrapper {
+            iframe {
+                width: 320px;
+                height: 180px;
+            }
+        }
+    }
+}
+
+@media( max-width: 420px ) {
+    .title {
+        font-size: 18px;
+    }
+
+    .slider {
+        .cards {
+            width: 360px;
+        }
+
+        .card {
+            height: 320px;
+
+            &__text {
+                font-size: 18px;
+            }
+
+            &__button {
+                bottom: 85px;
+            }
+        }
+    }
+}
+
+@media( max-width: 375px ) {
+    .button {
+        width: 135px;
+    }
+
+    .video {
+        iframe {
+            width: 390px;
+            height: 160px;
+        }
+    }
+
+    .slider {
+        .cards {
+            width: 310px;
+        }
+
+        .card {
+            height: 320px;
+
+            &__text {
+                font-size: 18px;
+            }
+
+            &__button {
+                bottom: 85px;
+            }
+        }
+    }
+
+    .music {
+        &__wrapper {
+            iframe {
+                height: 160px;
+            }
+        }
+    }
+}
