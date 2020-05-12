@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Да. сука?</title>
+    <link rel="shortcut icon" href="src/icons/icon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="src/css/bootstrap-grid.min.css">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <section class="promo">
+    <section class="promo" id="up">
         <div class="container">
             <div class="row">
                 <div class="promo__content col-xl-6 offset-xl-6">
@@ -24,15 +25,16 @@
                     </div>
                     <div class="promo__line"></div>
                     <div class="promo__buttons">
-                        <a href="#" class="button button__outline-white">
+                        <a href="https://imgur.com/aq1HZ01" target="_blank" class="button button__outline-white">
                             <span>
                                 куда
                             </span>
                         </a>
                         <p>чи</p>
-                        <a href="#" class="button button__white">
+                        <a href="#" id="play-button" class="button button__white">
                             <span>
                                 каво
+                                <audio src="src/audio/which-one.mp3"></audio>
                             </span>
                         </a>
                     </div>
@@ -58,7 +60,7 @@
         </div>
     </section>
     <section class="slider">
-        <div class="title title-underline">Прадалжаем рубрику цицац са смыслам</div>
+        <div class="title title-underline">Прадалжаем рубрику цицац са смысал</div>
         <div class="container">
             <div class="cards owl-carousel owl-theme">
                 <div class="card">
@@ -91,7 +93,7 @@
                         </div>
                         <div class="card__author">
                             <div class="card__line"></div>
-                            &copy;А. ШОпенгауэр
+                            &copy;Ж. Фреско
                         </div>
                     </div>
                 </div>
@@ -108,7 +110,7 @@
                         </div>
                         <div class="card__author">
                             <div class="card__line"></div>
-                            &copy;А. ШОпенгауэр
+                            &copy;Ф. Достоевский
                         </div>
                     </div>
                 </div>
@@ -116,15 +118,18 @@
                     <div class="card__photo"></div>
                     <div class="card__text">
                         <div class="card__quote">
-                            Я пожилой мучачо тупа шо
+                            три четыре пять 0D
+                            <br>
+                            (3450D)
                         </div>
                         <div id="play-button" class="card__button">
                             <span></span>
                             <span></span>
+                            <audio src="src/audio/3450D.mp3"></audio>
                         </div>
                         <div class="card__author">
                             <div class="card__line"></div>
-                            &copy;Р. Джульета
+                            &copy;Д. Нэш
                         </div>
                     </div>
                 </div>
@@ -132,14 +137,15 @@
                     <div class="card__photo"></div>
                     <div class="card__text">
                         <div class="card__quote">
-                            спулає,<br>
-                            край неба мунлає,<br>
-                            чікіпікі в темнім гаю,<br>
+                            спулає,
+                            край неба мунлає,
+                            чікіпікі в темнім гаю,
                             мулає зустрічає.
                         </div>
                         <div id="play-button" class="card__button">
                             <span></span>
                             <span></span>
+                            <audio src="src/audio/spotlight-moonlight.mp3"></audio>
                         </div>
                         <div class="card__author">
                             <div class="card__line"></div>
@@ -151,18 +157,17 @@
                     <div class="card__photo"></div>
                     <div class="card__text">
                         <div class="card__quote">
-                            спулає,<br>
-                            край неба мунлає,<br>
-                            чікіпікі в темнім гаю,<br>
-                            мулає зустрічає.
+                            Та затки ебальник!<br>
+                            Тьфу бля.
                         </div>
                         <div id="play-button" class="card__button">
                             <span></span>
                             <span></span>
+                            <audio src="src/audio/shut-the-fuck-up.mp3"></audio>
                         </div>
                         <div class="card__author">
                             <div class="card__line"></div>
-                            &copy;Т. Шевченко
+                            &copy;Д. Стэтхэм
                         </div>
                     </div>
                 </div>
@@ -199,6 +204,10 @@
             </div>
         </div>
     </footer>
+    
+    <a href="#up" class="pageup">
+        <img src="src/icons/scrollpage.svg" alt="up">
+    </a>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
