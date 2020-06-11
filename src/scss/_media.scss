@@ -138,6 +138,14 @@
     .forbiden {
         height: 550px;
     }
+
+    .DOOrka {
+        height: 650px;
+        iframe {
+            width: 450px;
+            height: 252px;
+        }
+    }
 }
 
 @media( max-width: 520px ) {
@@ -148,6 +156,14 @@
 
         .card {
             width: 100%;
+        }
+    }
+
+    .DOOrka {
+        height: 500px;
+        iframe {
+            width: 350px;
+            height: 196px;
         }
     }
 }
@@ -221,6 +237,13 @@
             &__button {
                 bottom: 85px;
             }
+        }
+    }
+
+    .DOOrka {
+        iframe {
+            width: 280px;
+            height: 164px;
         }
     }
 }

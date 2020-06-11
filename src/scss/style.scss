@@ -380,6 +380,19 @@ html body {
     }
 }
 
+.DOOrka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background: url('../images/DOOrka.png') center (center/cover) no-repeat;
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
 .footer {
     height: 50px;
     background: #333;
